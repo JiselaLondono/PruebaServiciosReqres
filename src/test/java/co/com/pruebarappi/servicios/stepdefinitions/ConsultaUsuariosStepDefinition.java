@@ -31,7 +31,7 @@ public class ConsultaUsuariosStepDefinition {
         theActorCalled(actor).wasAbleTo(ConsumirElServicioDeUsuarios.usandoLosParametrosDeConsulta(queryParameters));
     }
 
-    @Cuando("^Jisela obtiene el código de respuesta (\\d+)$")
+    @Cuando("^Jisela obtiene el código de respuesta (\\d+) y recuerda el listado de usuarios$")
     public void evaluarCodigoDeRespuesta(int statusCode) {
         Response response = theActorInTheSpotlight().recall("RespuestaDeServicio");
 
