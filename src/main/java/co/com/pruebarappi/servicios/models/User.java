@@ -3,6 +3,7 @@ package co.com.pruebarappi.servicios.models;
 import java.util.Objects;
 
 public class User {
+
     private int id;
     private String email;
     private String firstName;

@@ -8,9 +8,9 @@ import static cucumber.api.SnippetType.CAMELCASE;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/consulta_usuarios.feature",
+        features = "src/test/resources/features/consultar_usuario_por_id.feature",
         glue = "co.com.pruebarappi.servicios.stepdefinitions",
         snippets = CAMELCASE
 )
-public class ConsultaUsuariosRunner {
+public class ConsultarUsuarioPorIdRunner {
 }
